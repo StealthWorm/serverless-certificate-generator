@@ -20,7 +20,8 @@
     "esbuild": "^0.14.2",
     "handlebars": "^4.7.7",
     "puppeteer": "^10.1.0",
-    "puppeteer-core": "^10.1.0"
+    "puppeteer-core": "^10.1.0",
+    "serverless-dynamodb": "^0.2.42"
   },
   "devDependencies": {
     "@serverless/typescript": "^2.23.0",
@@ -30,7 +31,6 @@
     "json-schema-to-ts": "^1.5.0",
     "serverless": "^2.41.2",
     "serverless-dotenv-plugin": "^3.10.0",
-    "serverless-dynamodb-local": "https://github.com/eheyder/serverless-dynamodb-local.git#v1",
     "serverless-esbuild": "^1.17.1",
     "serverless-offline": "^8.3.0",
     "ts-node": "^10.4.0",

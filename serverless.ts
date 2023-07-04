@@ -6,7 +6,7 @@ const serverlessConfiguration: AWS = {
   frameworkVersion: '2',
   plugins: [
     'serverless-esbuild', 
-    'serverless-dynamodb-local',
+    'serverless-dynamodb',
     'serverless-offline',
     'serverless-dotenv-plugin'
   ],
